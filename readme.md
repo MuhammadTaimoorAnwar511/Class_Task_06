@@ -3,7 +3,7 @@ dvc add data.csv
 git add data.csv.dvc readme.md .gitignore
 git commit -m "Track updated data.csv with DVC"
 git push origin master
-run upload_to_drive.py
+python upload_to_drive.py
 
 ==
 
